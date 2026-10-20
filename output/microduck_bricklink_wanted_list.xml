@@ -1,0 +1,811 @@
+<?xml version="1.0" ?>
+<INVENTORY>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3021</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>101</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Plate 2 x 3 (Sub-Assemblies: 3,5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3623</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>33</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Plate 1 x 3 (Sub-Assemblies: 3,5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3024</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>29</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Plate 1 x 1 (Sub-Assemblies: 5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>15068</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>28</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Slope, Curved 2 x 2 x 2/3 (Sub-Assemblies: 3,5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>2780</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>28</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Technic, Pin with Short Friction Ridges (Sub-Assemblies: 2,3,4,5,6,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3700</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>28</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Technic, Brick 1 x 2 with Hole (Sub-Assemblies: 2,3,4,6,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3020</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>23</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Plate 2 x 4 (Sub-Assemblies: 5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3024</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>23</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Plate 1 x 1 (Sub-Assemblies: 3,4,5,6)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3021</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>22</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Plate 2 x 3 (Sub-Assemblies: 1,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3070b</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>22</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Tile 1 x 1 with Groove (Sub-Assemblies: 1)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3710</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>22</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Plate 1 x 4 (Sub-Assemblies: 1,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3021</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>21</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Plate 2 x 3 (Sub-Assemblies: 2,3,4,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3022</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>19</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Plate 2 x 2 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3022</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>19</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Plate 2 x 2 (Sub-Assemblies: 4,5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3021</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>16</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Plate 2 x 3 (Sub-Assemblies: 2,4,5,6)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3022</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>16</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Plate 2 x 2 (Sub-Assemblies: 2,3,4,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3024</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>15</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Plate 1 x 1 (Sub-Assemblies: 1,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3020</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>14</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Plate 2 x 4 (Sub-Assemblies: 2,4,5,6)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3020</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>14</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Plate 2 x 4 (Sub-Assemblies: 4,6,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3022</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>14</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Plate 2 x 2 (Sub-Assemblies: 3,5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3022</ITEMID>
+    <COLOR>3</COLOR>
+    <MINQTY>14</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Yellow Plate 2 x 2 (Sub-Assemblies: 1,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3069b</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>14</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Tile 1 x 2 with Groove (Sub-Assemblies: 3,5,6,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3021</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>13</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Plate 2 x 3 (Sub-Assemblies: 2,6,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3023</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>13</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Plate 1 x 2 (Sub-Assemblies: 2,3,4)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3623</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>13</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Plate 1 x 3 (Sub-Assemblies: 1,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3020</ITEMID>
+    <COLOR>3</COLOR>
+    <MINQTY>12</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Yellow Plate 2 x 4 (Sub-Assemblies: 1)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3700</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>12</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Technic, Brick 1 x 2 with Hole (Sub-Assemblies: 3,5)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>54200</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>12</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Slope 30 1 x 1 x 2/3 (Sub-Assemblies: 1)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>87079</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>12</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Tile 2 x 4 with Groove (Sub-Assemblies: 1,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3021</ITEMID>
+    <COLOR>3</COLOR>
+    <MINQTY>10</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Yellow Plate 2 x 3 (Sub-Assemblies: 1)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3024</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>10</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Plate 1 x 1 (Sub-Assemblies: 4,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3024</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>10</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Plate 1 x 1 (Sub-Assemblies: 6,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3004</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>9</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Brick 1 x 2 (Sub-Assemblies: 2,3,4)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3023</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>9</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Plate 1 x 2 (Sub-Assemblies: 3,5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>87079</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>9</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Tile 2 x 4 with Groove (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3004</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>8</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Brick 1 x 2 (Sub-Assemblies: 3,5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3005</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>8</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Brick 1 x 1 (Sub-Assemblies: 3,6)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3023</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>8</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Plate 1 x 2 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3623</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>8</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Plate 1 x 3 (Sub-Assemblies: 2,3)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3623</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>8</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Plate 1 x 3 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3700</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>8</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Technic, Brick 1 x 2 with Hole (Sub-Assemblies: 1,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3001</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>7</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Brick 2 x 4 (Sub-Assemblies: 5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3623</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>7</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Plate 1 x 3 (Sub-Assemblies: 3,4,5)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3710</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>7</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Plate 1 x 4 (Sub-Assemblies: 3,4,5)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>2412b</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>6</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Tile, Modified 1 x 2 Grille with Bottom Groove (Sub-Assemblies: 2,5)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3023</ITEMID>
+    <COLOR>3</COLOR>
+    <MINQTY>6</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Yellow Plate 1 x 2 (Sub-Assemblies: 1,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3023</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>6</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Plate 1 x 2 (Sub-Assemblies: 3,4)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3035</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>6</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Plate 4 x 8 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3070b</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>6</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Tile 1 x 1 with Groove (Sub-Assemblies: 2,3,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3701</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>6</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Technic, Brick 1 x 4 with Holes (Sub-Assemblies: 2)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3710</ITEMID>
+    <COLOR>3</COLOR>
+    <MINQTY>6</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Yellow Plate 1 x 4 (Sub-Assemblies: 1)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3005</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>5</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Brick 1 x 1 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3010</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>5</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Brick 1 x 4 (Sub-Assemblies: 5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3068b</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>5</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Tile 2 x 2 with Groove (Sub-Assemblies: 4,6)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3069b</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>5</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Tile 1 x 2 with Groove (Sub-Assemblies: 1,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3622</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>5</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Brick 1 x 3 (Sub-Assemblies: 3,5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3710</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>5</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Plate 1 x 4 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>11477</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Slope, Curved 2 x 1 x 2/3 (Sub-Assemblies: 5,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>15068</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Slope, Curved 2 x 2 x 2/3 (Sub-Assemblies: 1)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>2412b</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Tile, Modified 1 x 2 Grille with Bottom Groove (Sub-Assemblies: 5)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>2431</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Tile 1 x 4 with Groove (Sub-Assemblies: 3)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3002</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Brick 2 x 3 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3003</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Brick 2 x 2 (Sub-Assemblies: 3,5)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3004</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Brick 1 x 2 (Sub-Assemblies: 3,4)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3020</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Plate 2 x 4 (Sub-Assemblies: 1,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3020</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Plate 2 x 4 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3022</ITEMID>
+    <COLOR>110</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Bright Light Orange Plate 2 x 2 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3035</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Plate 4 x 8 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3068b</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Tile 2 x 2 with Groove (Sub-Assemblies: 1,7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3069b</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Tile 1 x 2 with Groove (Sub-Assemblies: 3,5)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3623</ITEMID>
+    <COLOR>3</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Yellow Plate 1 x 3 (Sub-Assemblies: 1)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3700</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Technic, Brick 1 x 2 with Hole (Sub-Assemblies: 6)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3701</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Technic, Brick 1 x 4 with Holes (Sub-Assemblies: 3)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3710</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Plate 1 x 4 (Sub-Assemblies: 2,4)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>54200</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>4</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Slope 30 1 x 1 x 2/3 (Sub-Assemblies: 2)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>2431</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>3</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Tile 1 x 4 with Groove (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3001</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>3</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Brick 2 x 4 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3010</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>3</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Brick 1 x 4 (Sub-Assemblies: 4)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3710</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>3</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Plate 1 x 4 (Sub-Assemblies: 5)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>11477</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Slope, Curved 2 x 1 x 2/3 (Sub-Assemblies: 1)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>2412b</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Tile, Modified 1 x 2 Grille with Bottom Groove (Sub-Assemblies: 2)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>2431</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Tile 1 x 4 with Groove (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3001</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Brick 2 x 4 (Sub-Assemblies: 5)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3002</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Brick 2 x 3 (Sub-Assemblies: 6)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3003</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Brick 2 x 2 (Sub-Assemblies: 4)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3031</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Plate 4 x 4 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3034</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Plate 2 x 8 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3068b</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Tile 2 x 2 with Groove (Sub-Assemblies: 4)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3070b</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Tile 1 x 1 with Groove (Sub-Assemblies: 5)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3070b</ITEMID>
+    <COLOR>15</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Trans-Light Blue Tile 1 x 1 with Groove (Sub-Assemblies: 5)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3070b</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Tile 1 x 1 with Groove (Sub-Assemblies: 2)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3460</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Plate 1 x 8 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3795</ITEMID>
+    <COLOR>4</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Orange Plate 2 x 6 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3795</ITEMID>
+    <COLOR>11</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Black Plate 2 x 6 (Sub-Assemblies: 4)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>4032</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Plate, Round 2 x 2 with Axle Hole (Sub-Assemblies: 4)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>4032</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Plate, Round 2 x 2 with Axle Hole (Sub-Assemblies: 4)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>54200</ITEMID>
+    <COLOR>1</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>White Slope 30 1 x 1 x 2/3 (Sub-Assemblies: 5)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>54200</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>2</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Slope 30 1 x 1 x 2/3 (Sub-Assemblies: 4)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3022</ITEMID>
+    <COLOR>86</COLOR>
+    <MINQTY>1</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Light Bluish Gray Plate 2 x 2 (Sub-Assemblies: 7)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>3031</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>1</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Plate 4 x 4 (Sub-Assemblies: 6)</REMARKS>
+  </ITEM>
+  <ITEM>
+    <ITEMTYPE>P</ITEMTYPE>
+    <ITEMID>87079</ITEMID>
+    <COLOR>85</COLOR>
+    <MINQTY>1</MINQTY>
+    <CONDITION>N</CONDITION>
+    <REMARKS>Dark Bluish Gray Tile 2 x 4 with Groove (Sub-Assemblies: 5)</REMARKS>
+  </ITEM>
+</INVENTORY>

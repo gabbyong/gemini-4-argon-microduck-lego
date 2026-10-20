@@ -1,0 +1,102 @@
+part_id,part_name,category,color_id,color_name,ldraw_color_id,hex_rgb,quantity,unit_mass_g,total_mass_g,dimensions_studs_plates,subassemblies
+3021,Plate 2 x 3,Plate,1,White,15,#F4F4F4,101,0.92,92.92,2x3 (1p),"3,5,7"
+3623,Plate 1 x 3,Plate,1,White,15,#F4F4F4,33,0.49,16.17,1x3 (1p),"3,5,7"
+3024,Plate 1 x 1,Plate,1,White,15,#F4F4F4,29,0.18,5.22,1x1 (1p),"5,7"
+15068,"Slope, Curved 2 x 2 x 2/3","Slope, Curved",1,White,15,#F4F4F4,28,0.82,22.96,2x2 (2p),"3,5,7"
+2780,"Technic, Pin with Short Friction Ridges",Technic Pin,11,Black,0,#1B2A34,28,0.16,4.48,1x1 (1p),"2,3,4,5,6,7"
+3700,"Technic, Brick 1 x 2 with Hole",Technic Brick,85,Dark Bluish Gray,72,#6C6E68,28,0.8,22.4,1x2 (3p),"2,3,4,6,7"
+3020,Plate 2 x 4,Plate,1,White,15,#F4F4F4,23,1.22,28.06,2x4 (1p),"5,7"
+3024,Plate 1 x 1,Plate,11,Black,0,#1B2A34,23,0.18,4.14,1x1 (1p),"3,4,5,6"
+3021,Plate 2 x 3,Plate,4,Orange,25,#FE8A18,22,0.92,20.24,2x3 (1p),"1,7"
+3070b,Tile 1 x 1 with Groove,Tile,4,Orange,25,#FE8A18,22,0.15,3.3,1x1 (1p),1
+3710,Plate 1 x 4,Plate,4,Orange,25,#FE8A18,22,0.65,14.3,1x4 (1p),"1,7"
+3021,Plate 2 x 3,Plate,85,Dark Bluish Gray,72,#6C6E68,21,0.92,19.32,2x3 (1p),"2,3,4,7"
+3022,Plate 2 x 2,Plate,4,Orange,25,#FE8A18,19,0.62,11.78,2x2 (1p),7
+3022,Plate 2 x 2,Plate,11,Black,0,#1B2A34,19,0.62,11.78,2x2 (1p),"4,5,7"
+3021,Plate 2 x 3,Plate,11,Black,0,#1B2A34,16,0.92,14.72,2x3 (1p),"2,4,5,6"
+3022,Plate 2 x 2,Plate,85,Dark Bluish Gray,72,#6C6E68,16,0.62,9.92,2x2 (1p),"2,3,4,7"
+3024,Plate 1 x 1,Plate,4,Orange,25,#FE8A18,15,0.18,2.7,1x1 (1p),"1,7"
+3020,Plate 2 x 4,Plate,11,Black,0,#1B2A34,14,1.22,17.08,2x4 (1p),"2,4,5,6"
+3020,Plate 2 x 4,Plate,85,Dark Bluish Gray,72,#6C6E68,14,1.22,17.08,2x4 (1p),"4,6,7"
+3022,Plate 2 x 2,Plate,1,White,15,#F4F4F4,14,0.62,8.68,2x2 (1p),"3,5,7"
+3022,Plate 2 x 2,Plate,3,Yellow,14,#F2CD37,14,0.62,8.68,2x2 (1p),"1,7"
+3069b,Tile 1 x 2 with Groove,Tile,85,Dark Bluish Gray,72,#6C6E68,14,0.3,4.2,1x2 (1p),"3,5,6,7"
+3021,Plate 2 x 3,Plate,86,Light Bluish Gray,71,#A0A5A9,13,0.92,11.96,2x3 (1p),"2,6,7"
+3023,Plate 1 x 2,Plate,85,Dark Bluish Gray,72,#6C6E68,13,0.34,4.42,1x2 (1p),"2,3,4"
+3623,Plate 1 x 3,Plate,4,Orange,25,#FE8A18,13,0.49,6.37,1x3 (1p),"1,7"
+3020,Plate 2 x 4,Plate,3,Yellow,14,#F2CD37,12,1.22,14.64,2x4 (1p),1
+3700,"Technic, Brick 1 x 2 with Hole",Technic Brick,1,White,15,#F4F4F4,12,0.8,9.6,1x2 (3p),"3,5"
+54200,Slope 30 1 x 1 x 2/3,Slope,4,Orange,25,#FE8A18,12,0.22,2.64,1x1 (2p),1
+87079,Tile 2 x 4 with Groove,Tile,4,Orange,25,#FE8A18,12,1.15,13.8,2x4 (1p),"1,7"
+3021,Plate 2 x 3,Plate,3,Yellow,14,#F2CD37,10,0.92,9.2,2x3 (1p),1
+3024,Plate 1 x 1,Plate,85,Dark Bluish Gray,72,#6C6E68,10,0.18,1.8,1x1 (1p),"4,7"
+3024,Plate 1 x 1,Plate,86,Light Bluish Gray,71,#A0A5A9,10,0.18,1.8,1x1 (1p),"6,7"
+3004,Brick 1 x 2,Brick,11,Black,0,#1B2A34,9,0.82,7.38,1x2 (3p),"2,3,4"
+3023,Plate 1 x 2,Plate,1,White,15,#F4F4F4,9,0.34,3.06,1x2 (1p),"3,5,7"
+87079,Tile 2 x 4 with Groove,Tile,1,White,15,#F4F4F4,9,1.15,10.35,2x4 (1p),7
+3004,Brick 1 x 2,Brick,1,White,15,#F4F4F4,8,0.82,6.56,1x2 (3p),"3,5,7"
+3005,Brick 1 x 1,Brick,11,Black,0,#1B2A34,8,0.45,3.6,1x1 (3p),"3,6"
+3023,Plate 1 x 2,Plate,4,Orange,25,#FE8A18,8,0.34,2.72,1x2 (1p),7
+3623,Plate 1 x 3,Plate,85,Dark Bluish Gray,72,#6C6E68,8,0.49,3.92,1x3 (1p),"2,3"
+3623,Plate 1 x 3,Plate,86,Light Bluish Gray,71,#A0A5A9,8,0.49,3.92,1x3 (1p),7
+3700,"Technic, Brick 1 x 2 with Hole",Technic Brick,4,Orange,25,#FE8A18,8,0.8,6.4,1x2 (3p),"1,7"
+3001,Brick 2 x 4,Brick,1,White,15,#F4F4F4,7,2.25,15.75,2x4 (3p),"5,7"
+3623,Plate 1 x 3,Plate,11,Black,0,#1B2A34,7,0.49,3.43,1x3 (1p),"3,4,5"
+3710,Plate 1 x 4,Plate,85,Dark Bluish Gray,72,#6C6E68,7,0.65,4.55,1x4 (1p),"3,4,5"
+2412b,"Tile, Modified 1 x 2 Grille with Bottom Groove","Tile, Modified",85,Dark Bluish Gray,72,#6C6E68,6,0.28,1.68,1x2 (1p),"2,5"
+3023,Plate 1 x 2,Plate,3,Yellow,14,#F2CD37,6,0.34,2.04,1x2 (1p),"1,7"
+3023,Plate 1 x 2,Plate,11,Black,0,#1B2A34,6,0.34,2.04,1x2 (1p),"3,4"
+3035,Plate 4 x 8,Plate,4,Orange,25,#FE8A18,6,4.8,28.8,4x8 (1p),7
+3070b,Tile 1 x 1 with Groove,Tile,85,Dark Bluish Gray,72,#6C6E68,6,0.15,0.9,1x1 (1p),"2,3,7"
+3701,"Technic, Brick 1 x 4 with Holes",Technic Brick,11,Black,0,#1B2A34,6,1.48,8.88,1x4 (3p),2
+3710,Plate 1 x 4,Plate,3,Yellow,14,#F2CD37,6,0.65,3.9,1x4 (1p),1
+3005,Brick 1 x 1,Brick,1,White,15,#F4F4F4,5,0.45,2.25,1x1 (3p),7
+3010,Brick 1 x 4,Brick,1,White,15,#F4F4F4,5,1.52,7.6,1x4 (3p),"5,7"
+3068b,Tile 2 x 2 with Groove,Tile,85,Dark Bluish Gray,72,#6C6E68,5,0.58,2.9,2x2 (1p),"4,6"
+3069b,Tile 1 x 2 with Groove,Tile,4,Orange,25,#FE8A18,5,0.3,1.5,1x2 (1p),"1,7"
+3622,Brick 1 x 3,Brick,1,White,15,#F4F4F4,5,1.18,5.9,1x3 (3p),"3,5,7"
+3710,Plate 1 x 4,Plate,86,Light Bluish Gray,71,#A0A5A9,5,0.65,3.25,1x4 (1p),7
+11477,"Slope, Curved 2 x 1 x 2/3","Slope, Curved",1,White,15,#F4F4F4,4,0.42,1.68,1x2 (2p),"5,7"
+15068,"Slope, Curved 2 x 2 x 2/3","Slope, Curved",4,Orange,25,#FE8A18,4,0.82,3.28,2x2 (2p),1
+2412b,"Tile, Modified 1 x 2 Grille with Bottom Groove","Tile, Modified",11,Black,0,#1B2A34,4,0.28,1.12,1x2 (1p),5
+2431,Tile 1 x 4 with Groove,Tile,85,Dark Bluish Gray,72,#6C6E68,4,0.6,2.4,1x4 (1p),3
+3002,Brick 2 x 3,Brick,1,White,15,#F4F4F4,4,1.7,6.8,2x3 (3p),7
+3003,Brick 2 x 2,Brick,1,White,15,#F4F4F4,4,1.15,4.6,2x2 (3p),"3,5"
+3004,Brick 1 x 2,Brick,85,Dark Bluish Gray,72,#6C6E68,4,0.82,3.28,1x2 (3p),"3,4"
+3020,Plate 2 x 4,Plate,4,Orange,25,#FE8A18,4,1.22,4.88,2x4 (1p),"1,7"
+3020,Plate 2 x 4,Plate,86,Light Bluish Gray,71,#A0A5A9,4,1.22,4.88,2x4 (1p),7
+3022,Plate 2 x 2,Plate,110,Bright Light Orange,191,#F8BB3D,4,0.62,2.48,2x2 (1p),7
+3035,Plate 4 x 8,Plate,1,White,15,#F4F4F4,4,4.8,19.2,4x8 (1p),7
+3068b,Tile 2 x 2 with Groove,Tile,4,Orange,25,#FE8A18,4,0.58,2.32,2x2 (1p),"1,7"
+3069b,Tile 1 x 2 with Groove,Tile,1,White,15,#F4F4F4,4,0.3,1.2,1x2 (1p),"3,5"
+3623,Plate 1 x 3,Plate,3,Yellow,14,#F2CD37,4,0.49,1.96,1x3 (1p),1
+3700,"Technic, Brick 1 x 2 with Hole",Technic Brick,86,Light Bluish Gray,71,#A0A5A9,4,0.8,3.2,1x2 (3p),6
+3701,"Technic, Brick 1 x 4 with Holes",Technic Brick,1,White,15,#F4F4F4,4,1.48,5.92,1x4 (3p),3
+3710,Plate 1 x 4,Plate,11,Black,0,#1B2A34,4,0.65,2.6,1x4 (1p),"2,4"
+54200,Slope 30 1 x 1 x 2/3,Slope,85,Dark Bluish Gray,72,#6C6E68,4,0.22,0.88,1x1 (2p),2
+2431,Tile 1 x 4 with Groove,Tile,1,White,15,#F4F4F4,3,0.6,1.8,1x4 (1p),7
+3001,Brick 2 x 4,Brick,86,Light Bluish Gray,71,#A0A5A9,3,2.25,6.75,2x4 (3p),7
+3010,Brick 1 x 4,Brick,11,Black,0,#1B2A34,3,1.52,4.56,1x4 (3p),4
+3710,Plate 1 x 4,Plate,1,White,15,#F4F4F4,3,0.65,1.95,1x4 (1p),5
+11477,"Slope, Curved 2 x 1 x 2/3","Slope, Curved",4,Orange,25,#FE8A18,2,0.42,0.84,1x2 (2p),1
+2412b,"Tile, Modified 1 x 2 Grille with Bottom Groove","Tile, Modified",86,Light Bluish Gray,71,#A0A5A9,2,0.28,0.56,1x2 (1p),2
+2431,Tile 1 x 4 with Groove,Tile,4,Orange,25,#FE8A18,2,0.6,1.2,1x4 (1p),7
+3001,Brick 2 x 4,Brick,11,Black,0,#1B2A34,2,2.25,4.5,2x4 (3p),5
+3002,Brick 2 x 3,Brick,11,Black,0,#1B2A34,2,1.7,3.4,2x3 (3p),6
+3003,Brick 2 x 2,Brick,86,Light Bluish Gray,71,#A0A5A9,2,1.15,2.3,2x2 (3p),4
+3031,Plate 4 x 4,Plate,4,Orange,25,#FE8A18,2,2.4,4.8,4x4 (1p),7
+3034,Plate 2 x 8,Plate,4,Orange,25,#FE8A18,2,2.42,4.84,2x8 (1p),7
+3068b,Tile 2 x 2 with Groove,Tile,86,Light Bluish Gray,71,#A0A5A9,2,0.58,1.16,2x2 (1p),4
+3070b,Tile 1 x 1 with Groove,Tile,1,White,15,#F4F4F4,2,0.15,0.3,1x1 (1p),5
+3070b,Tile 1 x 1 with Groove,Tile,15,Trans-Light Blue,43,#AEEFEC,2,0.15,0.3,1x1 (1p),5
+3070b,Tile 1 x 1 with Groove,Tile,86,Light Bluish Gray,71,#A0A5A9,2,0.15,0.3,1x1 (1p),2
+3460,Plate 1 x 8,Plate,4,Orange,25,#FE8A18,2,1.28,2.56,1x8 (1p),7
+3795,Plate 2 x 6,Plate,4,Orange,25,#FE8A18,2,1.82,3.64,2x6 (1p),7
+3795,Plate 2 x 6,Plate,11,Black,0,#1B2A34,2,1.82,3.64,2x6 (1p),4
+4032,"Plate, Round 2 x 2 with Axle Hole","Plate, Round",85,Dark Bluish Gray,72,#6C6E68,2,0.55,1.1,2x2 (1p),4
+4032,"Plate, Round 2 x 2 with Axle Hole","Plate, Round",86,Light Bluish Gray,71,#A0A5A9,2,0.55,1.1,2x2 (1p),4
+54200,Slope 30 1 x 1 x 2/3,Slope,1,White,15,#F4F4F4,2,0.22,0.44,1x1 (2p),5
+54200,Slope 30 1 x 1 x 2/3,Slope,86,Light Bluish Gray,71,#A0A5A9,2,0.22,0.44,1x1 (2p),4
+3022,Plate 2 x 2,Plate,86,Light Bluish Gray,71,#A0A5A9,1,0.62,0.62,2x2 (1p),7
+3031,Plate 4 x 4,Plate,85,Dark Bluish Gray,72,#6C6E68,1,2.4,2.4,4x4 (1p),6
+87079,Tile 2 x 4 with Groove,Tile,85,Dark Bluish Gray,72,#6C6E68,1,1.15,1.15,2x4 (1p),5

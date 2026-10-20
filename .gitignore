@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+output/microduck_demo_input.mp4
+output/microduck_narration_mix.wav
+output/GoogleSansFlex.ttf
+output/*.mp4

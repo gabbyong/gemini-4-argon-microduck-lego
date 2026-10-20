@@ -1,0 +1,703 @@
+{
+  "all_passed": true,
+  "summary": {
+    "total_pieces": 945,
+    "unique_lots": 101,
+    "total_steps": 129,
+    "height_plates": 78,
+    "height_mm": 249.6,
+    "width_mm": 128.0,
+    "depth_mm": 95.53,
+    "total_mass_g": 708.97,
+    "collision_count": 0,
+    "obb_world_collisions": 0,
+    "adjacent_sub_collisions": 0,
+    "non_mating_world_penetrations": 0,
+    "pin_collisions": 0,
+    "connected_components": 1,
+    "floating_bricks": 0,
+    "total_stud_connections": 3422,
+    "verified_coaxial_pin_joints": 8,
+    "verified_double_shear_joints": 8,
+    "total_joint_shear_pins": 16,
+    "max_coaxial_pin_error_mm": 5e-05,
+    "horizontal_technic_pins_count": 28,
+    "unbuildable_steps": 0,
+    "step_floating_bricks": 0,
+    "trapped_insertions": 0,
+    "is_balanced": true,
+    "cog_mm": {
+      "x_mm": 0.152,
+      "y_mm": 149.057,
+      "z_mm": -0.829
+    },
+    "min_edge_margin_mm": 40.83,
+    "min_tipping_angle_deg": 15.32,
+    "invalid_parts": 0,
+    "kinematic_joints_count": 10,
+    "walking_gait_stable": true,
+    "min_inter_leg_clearance_mm": 32.0
+  },
+  "audits": {
+    "1_scale_and_specs": {
+      "passed": true,
+      "min_y_plates": 0,
+      "max_y_plates": 78,
+      "height_plates": 78,
+      "world_y_min_mm": 0.0,
+      "world_y_max_mm": 249.6,
+      "height_mm": 249.6,
+      "height_cm": 24.96,
+      "width_studs": 16,
+      "width_mm": 128.0,
+      "depth_studs": 12,
+      "depth_mm": 95.53,
+      "total_pieces": 945,
+      "total_steps": 129,
+      "min_bricks_per_step": 1,
+      "max_bricks_per_step": 14,
+      "subassemblies": {
+        "1": {
+          "name": "SA-01: Two-Tone Orange & Yellow Robotic Bootie Feet with Ankle Pin Brackets (Left & Right)",
+          "pitch_deg": 0.0,
+          "piece_count": 128,
+          "y_min": 0,
+          "y_max": 8,
+          "world_y_min_mm": 0.0,
+          "world_y_max_mm": 25.6,
+          "step_min": 1,
+          "step_max": 12
+        },
+        "2": {
+          "name": "SA-02: Slanted Lower Shin Servos & Angled Grey Knee Linkages (Left & Right)",
+          "pitch_deg": 24.0,
+          "piece_count": 60,
+          "y_min": 0,
+          "y_max": 16,
+          "world_y_min_mm": 13.16,
+          "world_y_max_mm": 66.44,
+          "step_min": 13,
+          "step_max": 25
+        },
+        "3": {
+          "name": "SA-03: Slanted Upper Thigh Servos & Diagonal White Outer Thigh Armor Shields (Left & Right)",
+          "pitch_deg": -26.0,
+          "piece_count": 110,
+          "y_min": 0,
+          "y_max": 16,
+          "world_y_min_mm": 50.98,
+          "world_y_max_mm": 111.03,
+          "step_min": 26,
+          "step_max": 39
+        },
+        "4": {
+          "name": "SA-04: Exposed Black Hip Servo Cluster & Cylindrical Grey Hip-Roll Hubs",
+          "pitch_deg": 0.0,
+          "piece_count": 96,
+          "y_min": 0,
+          "y_max": 11,
+          "world_y_min_mm": 76.04,
+          "world_y_max_mm": 111.24,
+          "step_min": 40,
+          "step_max": 53
+        },
+        "5": {
+          "name": "SA-05: Compact Rounded White Torso Pod & Flush Rear Black Battery Column",
+          "pitch_deg": 0.0,
+          "piece_count": 116,
+          "y_min": 0,
+          "y_max": 11,
+          "world_y_min_mm": 111.24,
+          "world_y_max_mm": 146.44,
+          "step_min": 54,
+          "step_max": 67
+        },
+        "6": {
+          "name": "SA-06: Slanted Slender 4x4 Black & Grey Multi-Servo Neck Stalk",
+          "pitch_deg": 19.725382144117155,
+          "piece_count": 37,
+          "y_min": 0,
+          "y_max": 16,
+          "world_y_min_mm": 134.42,
+          "world_y_max_mm": 188.02,
+          "step_min": 68,
+          "step_max": 79
+        },
+        "7": {
+          "name": "SA-07: Wide Curved White Visor Hood, Orange Base Rim & Cyclops Yellow-Ring Camera Head",
+          "pitch_deg": 0.0,
+          "piece_count": 398,
+          "y_min": 0,
+          "y_max": 23,
+          "world_y_min_mm": 176.0,
+          "world_y_max_mm": 249.6,
+          "step_min": 80,
+          "step_max": 129
+        }
+      }
+    },
+    "2_volumetric_collisions": {
+      "passed": true,
+      "total_occupied_unit_cells": 4958,
+      "local_collision_count": 0,
+      "obb_world_collisions": 0,
+      "same_sub_obb_collisions": 0,
+      "adjacent_sub_collisions": 0,
+      "non_mating_world_penetrations": 0,
+      "pin_collisions": 0,
+      "collision_count": 0,
+      "colliding_cells_sample": [],
+      "obb_collisions_sample": [],
+      "non_mating_penetrations_sample": []
+    },
+    "3_connectivity_graph": {
+      "passed": true,
+      "connected_components": 1,
+      "floating_bricks": 0,
+      "floating_brick_ids": [],
+      "grounded_bricks": 945,
+      "total_bricks": 945,
+      "total_stud_connections": 3422,
+      "total_brick_bonds": 1561,
+      "mated_hinge_pairs": 0,
+      "verified_coaxial_pin_joints": 8,
+      "verified_double_shear_joints": 8,
+      "total_joint_shear_pins": 16,
+      "expected_coaxial_pin_joints": 8,
+      "max_coaxial_pin_error_mm": 5e-05,
+      "horizontal_technic_pins_count": 28,
+      "coaxial_pin_joints": [
+        {
+          "joint_id": "left_ankle_pin",
+          "parent_subassembly_id": 1,
+          "child_subassembly_id": 2,
+          "pivot_mm": [
+            -36.0,
+            20.8,
+            -16.0
+          ],
+          "parent_technic_brick_ids": [
+            121,
+            122
+          ],
+          "child_technic_brick_ids": [
+            129,
+            131
+          ],
+          "horizontal_pin_brick_ids": [
+            135,
+            136
+          ],
+          "shear_pin_brick_ids": [
+            135,
+            136
+          ],
+          "shear_pin_count": 2,
+          "double_shear": true,
+          "coaxial_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "joint_id": "right_ankle_pin",
+          "parent_subassembly_id": 1,
+          "child_subassembly_id": 2,
+          "pivot_mm": [
+            36.0,
+            20.8,
+            -16.0
+          ],
+          "parent_technic_brick_ids": [
+            123,
+            124
+          ],
+          "child_technic_brick_ids": [
+            132,
+            134
+          ],
+          "horizontal_pin_brick_ids": [
+            137,
+            138
+          ],
+          "shear_pin_brick_ids": [
+            137,
+            138
+          ],
+          "shear_pin_count": 2,
+          "double_shear": true,
+          "coaxial_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "joint_id": "left_knee_pin",
+          "parent_subassembly_id": 2,
+          "child_subassembly_id": 3,
+          "pivot_mm": [
+            -36.0,
+            58.803,
+            0.92
+          ],
+          "parent_technic_brick_ids": [
+            181,
+            182
+          ],
+          "child_technic_brick_ids": [
+            189,
+            190,
+            191,
+            192
+          ],
+          "horizontal_pin_brick_ids": [
+            185,
+            186,
+            199
+          ],
+          "shear_pin_brick_ids": [
+            185,
+            186
+          ],
+          "shear_pin_count": 2,
+          "double_shear": true,
+          "coaxial_error_mm": 5e-05,
+          "passed": true
+        },
+        {
+          "joint_id": "right_knee_pin",
+          "parent_subassembly_id": 2,
+          "child_subassembly_id": 3,
+          "pivot_mm": [
+            36.0,
+            58.803,
+            0.92
+          ],
+          "parent_technic_brick_ids": [
+            183,
+            184
+          ],
+          "child_technic_brick_ids": [
+            193,
+            194,
+            195,
+            196
+          ],
+          "horizontal_pin_brick_ids": [
+            187,
+            188,
+            200
+          ],
+          "shear_pin_brick_ids": [
+            187,
+            188
+          ],
+          "shear_pin_count": 2,
+          "double_shear": true,
+          "coaxial_error_mm": 5e-05,
+          "passed": true
+        },
+        {
+          "joint_id": "left_hip_pin",
+          "parent_subassembly_id": 3,
+          "child_subassembly_id": 4,
+          "pivot_mm": [
+            -36.0,
+            90.441,
+            -14.51
+          ],
+          "parent_technic_brick_ids": [
+            273,
+            274,
+            275,
+            276
+          ],
+          "child_technic_brick_ids": [
+            331,
+            332,
+            334
+          ],
+          "horizontal_pin_brick_ids": [
+            285,
+            347,
+            348,
+            349
+          ],
+          "shear_pin_brick_ids": [
+            347,
+            348
+          ],
+          "shear_pin_count": 2,
+          "double_shear": true,
+          "coaxial_error_mm": 5e-05,
+          "passed": true
+        },
+        {
+          "joint_id": "right_hip_pin",
+          "parent_subassembly_id": 3,
+          "child_subassembly_id": 4,
+          "pivot_mm": [
+            36.0,
+            90.441,
+            -14.51
+          ],
+          "parent_technic_brick_ids": [
+            277,
+            278,
+            279,
+            280
+          ],
+          "child_technic_brick_ids": [
+            335,
+            337,
+            338
+          ],
+          "horizontal_pin_brick_ids": [
+            286,
+            350,
+            351
+          ],
+          "shear_pin_brick_ids": [
+            350,
+            351
+          ],
+          "shear_pin_count": 2,
+          "double_shear": true,
+          "coaxial_error_mm": 5e-05,
+          "passed": true
+        },
+        {
+          "joint_id": "lower_neck_pin",
+          "parent_subassembly_id": 5,
+          "child_subassembly_id": 6,
+          "pivot_mm": [
+            0.0,
+            141.641,
+            1.49
+          ],
+          "parent_technic_brick_ids": [
+            481,
+            482,
+            483,
+            484
+          ],
+          "child_technic_brick_ids": [
+            511,
+            512,
+            513,
+            514
+          ],
+          "horizontal_pin_brick_ids": [
+            497,
+            498,
+            515
+          ],
+          "shear_pin_brick_ids": [
+            497,
+            498
+          ],
+          "shear_pin_count": 2,
+          "double_shear": true,
+          "coaxial_error_mm": 5e-05,
+          "passed": true
+        },
+        {
+          "joint_id": "upper_neck_turntable_pin",
+          "parent_subassembly_id": 6,
+          "child_subassembly_id": 7,
+          "pivot_mm": [
+            0.0,
+            180.8,
+            15.53
+          ],
+          "parent_technic_brick_ids": [
+            545,
+            547
+          ],
+          "child_technic_brick_ids": [
+            548,
+            549,
+            550,
+            551
+          ],
+          "horizontal_pin_brick_ids": [
+            552,
+            553
+          ],
+          "shear_pin_brick_ids": [
+            552,
+            553
+          ],
+          "shear_pin_count": 2,
+          "double_shear": true,
+          "coaxial_error_mm": 1e-05,
+          "passed": true
+        }
+      ]
+    },
+    "4_step_buildability": {
+      "passed": true,
+      "total_steps_simulated": 129,
+      "unbuildable_steps": 0,
+      "step_floating_bricks": 0,
+      "trapped_insertions": 0,
+      "trapped_insertions_within_subassembly": 0,
+      "trapped_insertions_global": 0,
+      "subassembly_merge_milestones_passed": {
+        "1": true,
+        "2": true,
+        "3": true,
+        "4": true,
+        "5": true,
+        "6": true,
+        "7": true
+      },
+      "errors_sample": []
+    },
+    "5_center_of_gravity_and_balance": {
+      "passed": true,
+      "is_balanced": true,
+      "total_mass_g": 708.97,
+      "cog_mm": {
+        "x_mm": 0.152,
+        "y_mm": 149.057,
+        "z_mm": -0.829
+      },
+      "cog_grid": {
+        "x_studs": 0.019,
+        "y_plates": 46.58,
+        "z_studs": -0.104
+      },
+      "support_polygon_bounds_mm": {
+        "min_x_mm": -56.0,
+        "max_x_mm": 56.0,
+        "min_z_mm": -48.0,
+        "max_z_mm": 40.0
+      },
+      "support_polygon_hull_mm": [
+        [
+          -56.0,
+          -48.0
+        ],
+        [
+          56.0,
+          -48.0
+        ],
+        [
+          56.0,
+          40.0
+        ],
+        [
+          -56.0,
+          40.0
+        ]
+      ],
+      "edge_margins_mm": {
+        "min_edge_margin_mm": 40.83,
+        "front_margin_mm": 40.83,
+        "back_margin_mm": 47.17,
+        "left_margin_mm": 56.15,
+        "right_margin_mm": 55.85
+      },
+      "tipping_angles_deg": {
+        "min_tipping_angle_deg": 15.32,
+        "front_deg": 15.32,
+        "back_deg": 17.56,
+        "left_deg": 20.64,
+        "right_deg": 20.54
+      }
+    },
+    "6_bricklink_procurement": {
+      "passed": true,
+      "invalid_parts": 0,
+      "unique_lots": 101,
+      "xml_valid": true,
+      "xml_item_count": 101,
+      "xml_total_quantity": 945,
+      "csv_exists": true
+    },
+    "7_bipedal_walking_gait_and_kinematics": {
+      "passed": true,
+      "total_kinematic_joints": 10,
+      "all_10_joints_present": true,
+      "stride_phases_evaluated": 8,
+      "inter_leg_collisions": 0,
+      "min_inter_leg_clearance_mm": 32.0,
+      "all_phases_dynamically_stable": true,
+      "stride_phases": [
+        {
+          "phase": 0.0,
+          "support_mode": "double_support",
+          "angles_deg": {
+            "left_hip_pitch": 0.0,
+            "right_hip_pitch": -0.0,
+            "left_knee_pitch": 0.0,
+            "right_knee_pitch": 0.0,
+            "left_ankle_pitch": -0.0,
+            "right_ankle_pitch": 0.0,
+            "hip_roll": 0.0,
+            "lower_neck_pitch": -6.0
+          },
+          "dynamic_cog_mm": {
+            "x_mm": 0.15,
+            "y_mm": 148.89,
+            "z_mm": -4.95
+          },
+          "inter_leg_clearance_mm": 32.0,
+          "phase_stable": true
+        },
+        {
+          "phase": 0.125,
+          "support_mode": "right_stance_left_swing",
+          "angles_deg": {
+            "left_hip_pitch": 12.73,
+            "right_hip_pitch": -12.73,
+            "left_knee_pitch": 15.56,
+            "right_knee_pitch": 0.0,
+            "left_ankle_pitch": -10.61,
+            "right_ankle_pitch": 10.61,
+            "hip_roll": 5.66,
+            "lower_neck_pitch": -0.0
+          },
+          "dynamic_cog_mm": {
+            "x_mm": 9.58,
+            "y_mm": 149.15,
+            "z_mm": -0.02
+          },
+          "inter_leg_clearance_mm": 32.0,
+          "phase_stable": true
+        },
+        {
+          "phase": 0.25,
+          "support_mode": "right_stance_left_swing",
+          "angles_deg": {
+            "left_hip_pitch": 18.0,
+            "right_hip_pitch": -18.0,
+            "left_knee_pitch": 22.0,
+            "right_knee_pitch": 0.0,
+            "left_ankle_pitch": -15.0,
+            "right_ankle_pitch": 15.0,
+            "hip_roll": 8.0,
+            "lower_neck_pitch": 6.0
+          },
+          "dynamic_cog_mm": {
+            "x_mm": 13.49,
+            "y_mm": 149.06,
+            "z_mm": 4.38
+          },
+          "inter_leg_clearance_mm": 32.0,
+          "phase_stable": true
+        },
+        {
+          "phase": 0.375,
+          "support_mode": "right_stance_left_swing",
+          "angles_deg": {
+            "left_hip_pitch": 12.73,
+            "right_hip_pitch": -12.73,
+            "left_knee_pitch": 15.56,
+            "right_knee_pitch": 0.0,
+            "left_ankle_pitch": -10.61,
+            "right_ankle_pitch": 10.61,
+            "hip_roll": 5.66,
+            "lower_neck_pitch": 0.0
+          },
+          "dynamic_cog_mm": {
+            "x_mm": 9.58,
+            "y_mm": 149.15,
+            "z_mm": -0.02
+          },
+          "inter_leg_clearance_mm": 32.0,
+          "phase_stable": true
+        },
+        {
+          "phase": 0.5,
+          "support_mode": "double_support",
+          "angles_deg": {
+            "left_hip_pitch": 0.0,
+            "right_hip_pitch": -0.0,
+            "left_knee_pitch": 0.0,
+            "right_knee_pitch": 0.0,
+            "left_ankle_pitch": -0.0,
+            "right_ankle_pitch": 0.0,
+            "hip_roll": 0.0,
+            "lower_neck_pitch": -6.0
+          },
+          "dynamic_cog_mm": {
+            "x_mm": 0.15,
+            "y_mm": 148.89,
+            "z_mm": -4.95
+          },
+          "inter_leg_clearance_mm": 32.0,
+          "phase_stable": true
+        },
+        {
+          "phase": 0.625,
+          "support_mode": "left_stance_right_swing",
+          "angles_deg": {
+            "left_hip_pitch": -12.73,
+            "right_hip_pitch": 12.73,
+            "left_knee_pitch": 0.0,
+            "right_knee_pitch": 15.56,
+            "left_ankle_pitch": 10.61,
+            "right_ankle_pitch": -10.61,
+            "hip_roll": -5.66,
+            "lower_neck_pitch": -0.0
+          },
+          "dynamic_cog_mm": {
+            "x_mm": -9.28,
+            "y_mm": 149.15,
+            "z_mm": -0.02
+          },
+          "inter_leg_clearance_mm": 32.0,
+          "phase_stable": true
+        },
+        {
+          "phase": 0.75,
+          "support_mode": "left_stance_right_swing",
+          "angles_deg": {
+            "left_hip_pitch": -18.0,
+            "right_hip_pitch": 18.0,
+            "left_knee_pitch": 0.0,
+            "right_knee_pitch": 22.0,
+            "left_ankle_pitch": 15.0,
+            "right_ankle_pitch": -15.0,
+            "hip_roll": -8.0,
+            "lower_neck_pitch": 6.0
+          },
+          "dynamic_cog_mm": {
+            "x_mm": -13.18,
+            "y_mm": 149.06,
+            "z_mm": 4.38
+          },
+          "inter_leg_clearance_mm": 32.0,
+          "phase_stable": true
+        },
+        {
+          "phase": 0.875,
+          "support_mode": "left_stance_right_swing",
+          "angles_deg": {
+            "left_hip_pitch": -12.73,
+            "right_hip_pitch": 12.73,
+            "left_knee_pitch": 0.0,
+            "right_knee_pitch": 15.56,
+            "left_ankle_pitch": 10.61,
+            "right_ankle_pitch": -10.61,
+            "hip_roll": -5.66,
+            "lower_neck_pitch": 0.0
+          },
+          "dynamic_cog_mm": {
+            "x_mm": -9.28,
+            "y_mm": 149.15,
+            "z_mm": -0.02
+          },
+          "inter_leg_clearance_mm": 32.0,
+          "phase_stable": true
+        }
+      ]
+    }
+  },
+  "artifacts": {
+    "model_json": "output/microduck_model.json",
+    "ldraw_mpd": "output/microduck.mpd",
+    "ldraw_ldr": "output/microduck.ldr",
+    "bricklink_xml": "output/microduck_bricklink_wanted_list.xml",
+    "bom_csv": "output/microduck_bom.csv",
+    "verification_report_json": "output/verification_report.json"
+  }
+}

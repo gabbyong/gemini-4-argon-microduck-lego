@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SET #MD-2026 REV 3.2 // LEGO Microduck 3D Slanted &amp; Double-Shear Pin Assembly Studio (10-DoF)</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231B2A34'/%3E%3Ccircle cx='16' cy='16' r='10' fill='%23F2CD37'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%231B2A34'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Global Top Header Bar -->
+  <header class="top-header">
+    <div class="brand-cluster">
+      <div class="set-badge">SET #MD-2026 // REV 3.2</div>
+      <div class="brand-title-block">
+        <h1 class="brand-title">MICRODUCK LEGO STUDIO</h1>
+        <span class="brand-subtitle">249.6 mm • 3D Slanted • 10-DoF</span>
+      </div>
+    </div>
+
+    <div class="header-metrics">
+      <div class="metric-pill">
+        <span class="lbl">Pieces</span>
+        <span class="val" id="hdr-pieces">945 PCS</span>
+      </div>
+      <div class="metric-pill">
+        <span class="lbl">BrickLink</span>
+        <span class="val" id="hdr-lots">101 LOTS</span>
+      </div>
+      <div class="metric-pill">
+        <span class="lbl">Steps</span>
+        <span class="val" id="hdr-steps">129</span>
+      </div>
+      <div class="metric-pill">
+        <span class="lbl">Stud Bonds</span>
+        <span class="val" id="hdr-bonds">3,422</span>
+      </div>
+      <div class="metric-pill">
+        <span class="lbl">Tipping</span>
+        <span class="val" id="hdr-tipping">15.32°</span>
+      </div>
+      <div class="metric-pill verified">
+        <span class="lbl">8 Audits</span>
+        <span class="val" id="hdr-audits">8/8 DOUBLE-SHEAR • PASS</span>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <button type="button" class="btn btn-walk" id="btn-walk-top" style="flex:0;height:30px;padding:0 9px;">
+        10-DoF WALK
+      </button>
+      <a href="output/microduck_instruction_manual.pdf" download="microduck_instruction_manual.pdf" class="btn btn-primary" id="btn-download-pdf-top">
+        PDF MANUAL (47P)
+      </a>
+      <button type="button" class="btn btn-dark" id="btn-open-bom-modal">
+        BOM &amp; XML (101 LOTS)
+      </button>
+    </div>
+  </header>
+
+  <!-- 7 Sub-Assembly Quick-Jump Bar (with True 3D Slanted Pitch Poses) -->
+  <nav class="subassembly-bar" id="subassembly-tabs" aria-label="Modular Sub-Assembly Quick Jump">
+    <button type="button" class="sa-tab" data-sa="1" data-step="12">
+      <span><span class="sa-code">SA1</span>Feet (0°)</span>
+      <span class="sa-steps">S001–012</span>
+    </button>
+    <button type="button" class="sa-tab" data-sa="2" data-step="25">
+      <span><span class="sa-code">SA2</span>Shins (+24°)</span>
+      <span class="sa-steps">S013–025</span>
+    </button>
+    <button type="button" class="sa-tab" data-sa="3" data-step="39">
+      <span><span class="sa-code">SA3</span>Thighs (-26°)</span>
+      <span class="sa-steps">S026–039</span>
+    </button>
+    <button type="button" class="sa-tab" data-sa="4" data-step="53">
+      <span><span class="sa-code">SA4</span>Hip Servos (0°)</span>
+      <span class="sa-steps">S040–053</span>
+    </button>
+    <button type="button" class="sa-tab" data-sa="5" data-step="67">
+      <span><span class="sa-code">SA5</span>Torso &amp; Spine (0°)</span>
+      <span class="sa-steps">S054–067</span>
+    </button>
+    <button type="button" class="sa-tab" data-sa="6" data-step="79">
+      <span><span class="sa-code">SA6</span>Neck (+19.7°)</span>
+      <span class="sa-steps">S068–079</span>
+    </button>
+    <button type="button" class="sa-tab active" data-sa="7" data-step="129">
+      <span><span class="sa-code">SA7</span>Visor &amp; Cam (0°)</span>
+      <span class="sa-steps">S080–129</span>
+    </button>
+  </nav>
+
+  <!-- Main 3-Column Studio Workspace -->
+  <main class="studio-workspace">
+    <!-- Left Column: Current Step Callout & Step Telemetry -->
+    <aside class="panel-left">
+      <section class="panel-section">
+        <div class="section-header">
+          <span class="section-title">ACTIVE BUILD STEP INSPECTOR</span>
+          <span class="badge-pass" id="step-buildable-badge">VERIFIED BUILDABLE</span>
+        </div>
+
+        <div class="step-hero-box">
+          <div class="step-hero-top">
+            <span class="step-number-display" id="step-num-title">STEP 129 / 129</span>
+            <span class="step-layer-badge" id="step-elevation-badge">L=22..23p (0° • 249.6 mm)</span>
+          </div>
+          <div class="step-subassembly-title" id="step-sa-name">
+            SA-07 // Wide Curved White Visor Hood, Orange Base Rim &amp; Cyclops Yellow-Ring Camera Head
+          </div>
+          <div class="step-notes-text" id="step-notes-desc">
+            Head top crown smooth White tiles &amp; acoustic grille L=22..23
+          </div>
+        </div>
+
+        <div class="telemetry-grid">
+          <div class="telemetry-cell">
+            <div class="t-lbl">Step Stud/Pin Bonds</div>
+            <div class="t-val" id="tele-step-bonds">+32 BONDS</div>
+          </div>
+          <div class="telemetry-cell">
+            <div class="t-lbl">Cumulative Pieces</div>
+            <div class="t-val" id="tele-cum-pieces">945 / 945 PCS</div>
+          </div>
+          <div class="telemetry-cell">
+            <div class="t-lbl">Cumulative Mass</div>
+            <div class="t-val" id="tele-cum-mass">708.97 g</div>
+          </div>
+          <div class="telemetry-cell">
+            <div class="t-lbl">Live CoG (X, Y, Z)</div>
+            <div class="t-val" id="tele-cum-cog">+0.2, 149.1, -0.8</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel-section" style="flex: 1;">
+        <div class="section-header">
+          <span class="section-title" id="parts-callout-header">STEP 129 PARTS CALLOUT (8 PCS)</span>
+          <span class="section-title" style="color: var(--accent-teal);">0 TRAPPED</span>
+        </div>
+        <div class="parts-callout-list" id="step-parts-list">
+          <!-- Populated dynamically with 3D isometric SVG part thumbnails -->
+        </div>
+      </section>
+    </aside>
+
+    <!-- Center Column: 3D WebGL Viewport + Camera Bar + Timeline Player -->
+    <section class="viewport-column">
+      <div class="camera-preset-bar">
+        <div class="camera-btn-group" id="camera-presets">
+          <button type="button" class="btn btn-sm active" data-cam="isometric">Isometric</button>
+          <button type="button" class="btn btn-sm" data-cam="front">Front</button>
+          <button type="button" class="btn btn-sm" data-cam="right">Profile (+X Slant)</button>
+          <button type="button" class="btn btn-sm" data-cam="rear">Rear Spine</button>
+          <button type="button" class="btn btn-sm" data-cam="top">Top (CoG)</button>
+          <button type="button" class="btn btn-sm" data-cam="camera">Cyclops Camera</button>
+          <button type="button" class="btn btn-sm" data-cam="hips">Hip &amp; Thigh Pins</button>
+        </div>
+        <button type="button" class="btn btn-sm btn-teal" id="btn-reset-view">Reset View</button>
+      </div>
+
+      <div class="canvas-wrapper" id="canvas-container">
+        <canvas id="lego-canvas"></canvas>
+        <div class="viewport-hud-top-left">
+          <div class="hud-title" id="hud-overlay-status">3D SLANTED CAD VIEWPORT // SHINS +24° • THIGHS -26° • NECK +19.7° • 28 HORIZONTAL X-PINS</div>
+          <div class="hud-sub" id="hud-camera-readout">Orbit: Left-Drag • Pan: Right-Drag • Zoom: Scroll Wheel • 8/8 Double-Shear Joints Verified (16 Shear Pins) • 0 OBB Collisions</div>
+        </div>
+      </div>
+
+      <!-- 129-Step Timeline Player & Scrubber -->
+      <div class="timeline-player-bar">
+        <div class="scrubber-row">
+          <span class="scrubber-label" id="scrubber-step-label">STEP 129 / 129</span>
+          <input
+            type="range"
+            id="step-scrubber"
+            class="swiss-slider"
+            min="1"
+            max="129"
+            step="1"
+            value="129"
+            aria-label="Build Step Scrubber 1 to 129"
+          />
+          <span class="scrubber-label" style="text-align: right; min-width: 75px;" id="scrubber-pct-label">100.0%</span>
+        </div>
+
+        <div class="player-controls-row">
+          <div class="transport-btns">
+            <button type="button" class="btn btn-sm" id="btn-step-first" title="First Step (1)">|&lt; 1</button>
+            <button type="button" class="btn btn-sm" id="btn-step-prev" title="Previous Step (-1)">&lt; PREV</button>
+            <button type="button" class="btn btn-sm btn-primary" id="btn-play-pause" style="min-width: 112px;">AUTO-BUILD PLAY</button>
+            <button type="button" class="btn btn-sm" id="btn-step-next" title="Next Step (+1)">NEXT &gt;</button>
+            <button type="button" class="btn btn-sm" id="btn-step-final" title="Final Step (129)">129 &gt;|</button>
+          </div>
+
+          <div class="speed-btns" id="speed-selector">
+            <span class="section-title" style="margin-right: 2px;">SPEED:</span>
+            <button type="button" class="btn btn-sm" data-speed="1">1X</button>
+            <button type="button" class="btn btn-sm active" data-speed="2">2X</button>
+            <button type="button" class="btn btn-sm" data-speed="5">5X</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right Column: Engineering Overlays, 10-DoF Bipedal Walk Rig, CoG Proof & Deliverables -->
+    <aside class="panel-right">
+      <section class="panel-section">
+        <div class="section-header">
+          <span class="section-title">ENGINEERING OVERLAYS &amp; X-RAY</span>
+        </div>
+        <div class="toggle-list">
+          <label class="toggle-row" for="toggle-highlight-step">
+            <div class="toggle-label-group">
+              <span class="toggle-name">Highlight Current Step Bricks</span>
+              <span class="toggle-desc">Crimson/orange outline &amp; vertical drop-in animation</span>
+            </div>
+            <input type="checkbox" id="toggle-highlight-step" class="swiss-checkbox" checked />
+          </label>
+
+          <label class="toggle-row" for="toggle-cog-overlay">
+            <div class="toggle-label-group">
+              <span class="toggle-name">CoG, Pin Axes &amp; Support Hull</span>
+              <span class="toggle-desc">3D CoG sphere, 8 coaxial X-pin axes &amp; 112×88 mm foot hull</span>
+            </div>
+            <input type="checkbox" id="toggle-cog-overlay" class="swiss-checkbox" checked />
+          </label>
+
+          <label class="toggle-row" for="toggle-xray-spine">
+            <div class="toggle-label-group">
+              <span class="toggle-name">X-Ray Internal Technic Servos</span>
+              <span class="toggle-desc">Translucent armor revealing 3700/3701 servos &amp; 28 X-axis 2780 pins</span>
+            </div>
+            <input type="checkbox" id="toggle-xray-spine" class="swiss-checkbox" />
+          </label>
+        </div>
+      </section>
+
+      <section class="panel-section">
+        <div class="section-header">
+          <span class="section-title">10-DoF BIPEDAL WALK &amp; KINEMATICS</span>
+          <button type="button" class="btn btn-sm" id="btn-reset-articulation">RESET POSE</button>
+        </div>
+
+        <div class="walk-cta-bar">
+          <button type="button" class="btn btn-walk" id="btn-toggle-walk">
+            START BIPEDAL WALK (10-DoF GAIT)
+          </button>
+        </div>
+
+        <div class="slider-control-group">
+          <div class="slider-item">
+            <div class="slider-header">
+              <span class="slider-title">Gait Phase Scrubber (10-DoF Cycle)</span>
+              <span class="slider-readout" id="val-gait-phase">0%</span>
+            </div>
+            <input type="range" id="slider-gait-phase" class="swiss-slider" min="0" max="100" step="1" value="0" />
+            <div class="slider-sub">Scrubs full L/R swing, knee flex, ankle level &amp; hip roll</div>
+          </div>
+
+          <div class="slider-item">
+            <div class="slider-header">
+              <span class="slider-title">Hip Stride Pitch (SA-03 Base -26°)</span>
+              <span class="slider-readout" id="val-hip-pitch">0°</span>
+            </div>
+            <input type="range" id="slider-hip-pitch" class="swiss-slider" min="-22" max="22" step="1" value="0" />
+            <div class="slider-sub">Opposite L/R coaxial hip pin swing (-22° to +22°)</div>
+          </div>
+
+          <div class="slider-item">
+            <div class="slider-header">
+              <span class="slider-title">Knee Crouch Flex (SA-02 Base +24°)</span>
+              <span class="slider-readout" id="val-knee-flex">0°</span>
+            </div>
+            <input type="range" id="slider-knee-flex" class="swiss-slider" min="0" max="25" step="1" value="0" />
+            <div class="slider-sub">Flexes coaxial knee &amp; ankle pin joints (0° to +25°)</div>
+          </div>
+
+          <div class="slider-item">
+            <div class="slider-header">
+              <span class="slider-title">Neck Pitch &amp; Lean (SA-06 Base +19.7°)</span>
+              <span class="slider-readout" id="val-neck-pitch">0°</span>
+            </div>
+            <input type="range" id="slider-neck-pitch" class="swiss-slider" min="-20" max="20" step="1" value="0" />
+            <div class="slider-sub">Pivots slanted +19.7° 4x4 servo neck stalk (-20° to +20°)</div>
+          </div>
+
+          <div class="slider-item">
+            <div class="slider-header">
+              <span class="slider-title">Head Camera Yaw (SA-07 Turntable)</span>
+              <span class="slider-readout" id="val-neck-yaw">0°</span>
+            </div>
+            <input type="range" id="slider-neck-yaw" class="swiss-slider" min="-35" max="35" step="1" value="0" />
+            <div class="slider-sub">Rotates visor hood &amp; Cyclops camera around Y=180.8 (-35°..+35°)</div>
+          </div>
+
+          <div class="slider-item">
+            <div class="slider-header">
+              <span class="slider-title">Exploded 7-Subassembly View</span>
+              <span class="slider-readout" id="val-explode">0%</span>
+            </div>
+            <input type="range" id="slider-explode" class="swiss-slider" min="0" max="100" step="2" value="0" />
+            <div class="slider-sub">Separates all 7 slanted sub-assemblies &amp; coaxial pin joints</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel-section">
+        <div class="section-header">
+          <span class="section-title">STATIC &amp; DYNAMIC CoG MARGIN PROOF</span>
+          <span class="badge-pass" id="cog-status-badge">15.32° PASS</span>
+        </div>
+        <div class="cog-proof-box">
+          <div class="cog-row">
+            <span>Projected CoG (X, Z):</span>
+            <strong id="cog-xz-readout">+0.15 mm, -0.83 mm</strong>
+          </div>
+          <div class="cog-row">
+            <span>CoG Elevation (Y):</span>
+            <strong id="cog-y-readout">149.06 mm (46.58p)</strong>
+          </div>
+          <div class="cog-row">
+            <span>Front / Back Margin:</span>
+            <strong id="cog-fb-margin">40.83 mm / 47.17 mm</strong>
+          </div>
+          <div class="cog-row">
+            <span>Left / Right Margin:</span>
+            <strong id="cog-lr-margin">56.15 mm / 55.85 mm</strong>
+          </div>
+          <div class="cog-row">
+            <span>Min Static Tipping Angle:</span>
+            <strong style="color: var(--accent-emerald);" id="cog-tipping-readout">15.32° (&ge; 15.0° req)</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel-section">
+        <div class="section-header">
+          <span class="section-title">DIRECT CAD &amp; BOM DELIVERABLES</span>
+        </div>
+        <div class="deliverable-grid">
+          <a href="output/microduck_instruction_manual.pdf" download="microduck_instruction_manual.pdf" class="btn btn-primary">
+            PDF Manual (47p)
+          </a>
+          <button type="button" class="btn btn-teal" id="btn-copy-xml-quick">
+            Copy BrickLink XML
+          </button>
+          <a href="output/microduck_bricklink_wanted_list.xml" download="microduck_bricklink_wanted_list.xml" class="btn">
+            Wanted List .XML
+          </a>
+          <a href="output/microduck_bom.csv" download="microduck_bom.csv" class="btn">
+            Full BOM .CSV
+          </a>
+          <a href="output/microduck.mpd" download="microduck.mpd" class="btn">
+            LDraw .MPD
+          </a>
+          <a href="output/microduck.ldr" download="microduck.ldr" class="btn">
+            LDraw .LDR
+          </a>
+          <a href="output/verification_report.json" download="verification_report.json" class="btn" style="grid-column: span 2;">
+            8-Audit Verification Report (verification_report.json)
+          </a>
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <!-- BrickLink Procurement & Deliverable Hub Modal (All 101 Lots / 945 Pieces) -->
+  <div class="modal-backdrop" id="bom-modal" role="dialog" aria-modal="true" aria-labelledby="bom-modal-title">
+    <div class="modal-window">
+      <div class="modal-header">
+        <span class="modal-title" id="bom-modal-title">
+          BRICKLINK PROCUREMENT &amp; DELIVERABLE HUB // 101 UNIQUE LOTS • 945 PIECES • 708.97 G
+        </span>
+        <button type="button" class="btn btn-sm" id="btn-close-bom-modal">CLOSE [ESC]</button>
+      </div>
+
+      <div class="modal-toolbar">
+        <div class="filter-group">
+          <input
+            type="search"
+            id="bom-search-input"
+            class="swiss-input"
+            placeholder="Search Part ID (#3700, 3701, 2780, 15068), Name, or Category..."
+          />
+          <select id="bom-color-filter" class="swiss-select" aria-label="Filter by LEGO Color">
+            <option value="ALL">All LEGO Colors (101 Lots)</option>
+          </select>
+          <select id="bom-sa-filter" class="swiss-select" aria-label="Filter by Sub-Assembly">
+            <option value="ALL">All 7 Sub-Assemblies</option>
+            <option value="1">SA1: Bootie Feet (0°)</option>
+            <option value="2">SA2: Slanted Shins (+24°)</option>
+            <option value="3">SA3: Slanted Thighs &amp; Shields (-26°)</option>
+            <option value="4">SA4: Hip Servos &amp; Roll Hubs (0°)</option>
+            <option value="5">SA5: Rounded Torso &amp; Spine (0°)</option>
+            <option value="6">SA6: Slanted Servo Neck (+19.7°)</option>
+            <option value="7">SA7: Visor &amp; Cyclops Camera (0°)</option>
+          </select>
+          <span class="section-title" id="bom-filter-summary" style="margin-left: 6px;">
+            Showing 101 lots (945 pcs)
+          </span>
+        </div>
+
+        <div class="header-actions">
+          <button type="button" class="btn btn-primary" id="btn-copy-bricklink-xml">
+            COPY BRICKLINK WANTED LIST XML
+          </button>
+          <a href="output/microduck_bricklink_wanted_list.xml" download="microduck_bricklink_wanted_list.xml" class="btn btn-teal">
+            DOWNLOAD .XML
+          </a>
+          <a href="output/microduck_bom.csv" download="microduck_bom.csv" class="btn">
+            DOWNLOAD .CSV
+          </a>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <table class="bom-table">
+          <thead>
+            <tr>
+              <th>3D Preview</th>
+              <th>BrickLink ID</th>
+              <th>Element Name &amp; Category</th>
+              <th>Color (BL / LDraw)</th>
+              <th>Dims (Studs/Plates)</th>
+              <th>Quantity</th>
+              <th>Mass (g)</th>
+              <th>Est. Cost</th>
+              <th>Sub-Assemblies</th>
+            </tr>
+          </thead>
+          <tbody id="bom-table-body">
+            <!-- Populated dynamically with all 99 lots -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-banner" id="toast-banner" role="status" aria-live="polite"></div>
+
+  <!-- Vendored Three.js + OrbitControls + Preloaded Rev 3.2 CAD Bundle + Studio Application Logic -->
+  <script src="vendor/three.min.js"></script>
+  <script src="vendor/OrbitControls.js"></script>
+  <script src="vendor/microduck_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
