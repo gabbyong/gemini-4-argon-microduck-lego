@@ -1,6 +1,21 @@
 # LEGO Microduck 3D CAD & Assembly Studio (Set #MD-2026 // Rev 3.2)
 
-Life-sized (**249.6 mm / 25.0 cm = 78 plates tall**), 945-piece, 101-lot, 129-step buildable LEGO replica of the open-source **Microduck** bipedal robot (by Hugging Face & Pollen Robotics), complete with an 8-audit 3D Oriented Bounding Box (OBB) physics verifier, 47-page printable vector PDF instruction manual, and interactive Three.js 3D WebGL 10-DoF walking studio.
+**Live GitHub Pages Deployment:** [https://gabbyong.github.io/gemini-4-argon-microduck-lego/](https://gabbyong.github.io/gemini-4-argon-microduck-lego/)
+
+Life-sized (**249.6 mm / 25.0 cm = 78 plates tall**), 945-piece, 101-lot, 129-step buildable LEGO replica of the open-source **Microduck** bipedal robot (by Hugging Face & Pollen Robotics), autonomously engineered and verified by **Gemini 4 Argon** using an Orchestrator–Implementer–Verifier multi-agent architecture.
+
+---
+
+## Demo & Explainer Video Made by Gemini 4 Argon
+
+- **Watch / Download the Narrated Explainer Video (1080p60 MP4):** [`output/Microduck_Gemini4_Argon_Narrated_Full_1080p60.mp4`](output/Microduck_Gemini4_Argon_Narrated_Full_1080p60.mp4) ([Stream on GitHub Pages](https://gabbyong.github.io/gemini-4-argon-microduck-lego/output/Microduck_Gemini4_Argon_Narrated_Full_1080p60.mp4))
+- **Also playable inline inside the live studio:** Click **EXPLAINER VIDEO** in the top navigation bar at [https://gabbyong.github.io/gemini-4-argon-microduck-lego/](https://gabbyong.github.io/gemini-4-argon-microduck-lego/).
+
+### How Gemini 4 Argon Built This Demo & Explainer Video
+1. **Parametric LEGO CAD & Subagent Physics Verifiers**: Acting as an Orchestrator, **Gemini 4 Argon** coordinated specialized Implementer subagents and independent black-box Verifier subagents (`cad/verifier.py` + `gbrowser`) to design a 945-piece, 129-step LEGO replica from first principles. When visual and mathematical audits flagged brick collisions at slanted leg/neck joints and single-shear pin flex, the verifier loop iteratively re-engineered the frame into **8/8 true double-shear clevis pin joints** (`28` horizontal `#2780` Technic pins + triangulated `#3701` struts) with **0 3D Oriented Bounding Box (OBB) collisions** across all `446,040` brick pairs.
+2. **Autonomous Multimodal Video Production**: **Gemini 4 Argon** also produced the narrated explainer video (`output/Microduck_Gemini4_Argon_Narrated_Full_1080p60.mp4`) by inspecting the screen recording frame-by-frame, authoring a second-by-second time-aligned narration script, synthesizing the spoken voiceover with **Gemini 3.8 Flash TTS**, generating a custom chill-house background score with **Lyria 3.5**, and compositing synced single-line `Google Sans Flex` captions at 1080p60.
+
+---
 
 ## Key Engineering Highlights
 
@@ -13,9 +28,10 @@ Life-sized (**249.6 mm / 25.0 cm = 78 plates tall**), 945-piece, 101-lot, 129-st
 
 ## Included Deliverables
 
-- **`index.html` / `web/`** — Self-contained interactive 3D WebGL CAD & 10-DoF Bipedal Walking Studio (works directly on GitHub Pages with zero build step).
-- **`output/microduck_instruction_manual.pdf`** — 47-page printable vector PDF instruction manual with orthographic blueprints, step-by-step isometric build views, and illustrated BOM.
-- **`output/microduck_bricklink_wanted_list.xml` & `output/microduck_bom.csv`** — Ready-to-upload BrickLink Wanted List XML and full Bill of Materials.
+- **[Interactive 3D WebGL Studio](https://gabbyong.github.io/gemini-4-argon-microduck-lego/) (`index.html` / `web/`)** — Self-contained 3D WebGL CAD & 10-DoF Bipedal Walking Studio with built-in Explainer Video player.
+- **[Narrated Explainer Video (1080p60 MP4)](https://gabbyong.github.io/gemini-4-argon-microduck-lego/output/Microduck_Gemini4_Argon_Narrated_Full_1080p60.mp4) (`output/Microduck_Gemini4_Argon_Narrated_Full_1080p60.mp4`)** — Demo video made by Gemini 4 Argon with Gemini 3.8 Flash TTS narration, Lyria 3.5 background music, and synced captions.
+- **[47-Page Printable Instruction Manual (PDF)](https://gabbyong.github.io/gemini-4-argon-microduck-lego/output/microduck_instruction_manual.pdf) (`output/microduck_instruction_manual.pdf`)** — Vector PDF instruction manual with orthographic blueprints, step-by-step isometric build views, and illustrated BOM.
+- **[BrickLink Wanted List XML](https://gabbyong.github.io/gemini-4-argon-microduck-lego/output/microduck_bricklink_wanted_list.xml) & [BOM CSV](https://gabbyong.github.io/gemini-4-argon-microduck-lego/output/microduck_bom.csv)** — Ready-to-upload BrickLink Wanted List XML and full Bill of Materials.
 - **`output/microduck.mpd` & `output/microduck.ldr`** — Standard LDraw multi-part and single-part CAD models.
 - **`output/verification_report.json`** — Complete 8-audit physics and buildability telemetry report.
 

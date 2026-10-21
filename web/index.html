@@ -46,6 +46,9 @@
     </div>
 
     <div class="header-actions">
+      <button type="button" class="btn btn-teal" id="btn-open-video-modal" style="flex:0;height:30px;padding:0 9px;">
+        EXPLAINER VIDEO
+      </button>
       <button type="button" class="btn btn-walk" id="btn-walk-top" style="flex:0;height:30px;padding:0 9px;">
         10-DoF WALK
       </button>
@@ -360,6 +363,9 @@
           <a href="output/verification_report.json" download="verification_report.json" class="btn" style="grid-column: span 2;">
             8-Audit Verification Report (verification_report.json)
           </a>
+          <a href="output/Microduck_Gemini4_Argon_Narrated_Full_1080p60.mp4" download="Microduck_Gemini4_Argon_Narrated_Full_1080p60.mp4" class="btn btn-teal" style="grid-column: span 2;">
+            Explainer Video (1080p60 Narrated .MP4)
+          </a>
         </div>
       </section>
     </aside>
@@ -433,6 +439,32 @@
             <!-- Populated dynamically with all 99 lots -->
           </tbody>
         </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Narrated Explainer Video Modal (1080p60) -->
+  <div class="modal-backdrop" id="video-modal" role="dialog" aria-modal="true" aria-labelledby="video-modal-title">
+    <div class="modal-window" style="max-width: 1080px;">
+      <div class="modal-header">
+        <span class="modal-title" id="video-modal-title">
+          EXPLAINER VIDEO // GEMINI 4 ARGON + SUBAGENT VERIFIERS BUILDING THE 945-PIECE LEGO MICRODUCK (1080P60)
+        </span>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <a href="output/Microduck_Gemini4_Argon_Narrated_Full_1080p60.mp4" download="Microduck_Gemini4_Argon_Narrated_Full_1080p60.mp4" class="btn btn-sm btn-primary">
+            DOWNLOAD .MP4
+          </a>
+          <button type="button" class="btn btn-sm" id="btn-close-video-modal">CLOSE [ESC]</button>
+        </div>
+      </div>
+      <div class="modal-body" style="padding: 12px; background: #0B1014; display: flex; justify-content: center; align-items: center;">
+        <video
+          id="explainer-video-player"
+          controls
+          preload="metadata"
+          src="output/Microduck_Gemini4_Argon_Narrated_Full_1080p60.mp4"
+          style="width: 100%; max-height: 76vh; background: #0B1014; display: block;"
+        ></video>
       </div>
     </div>
   </div>

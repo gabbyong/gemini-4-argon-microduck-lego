@@ -1646,6 +1646,35 @@
 
     // BOM Modal & XML Copy
     const modal = document.getElementById('bom-modal');
+    const videoModal = document.getElementById('video-modal');
+    const videoPlayer = document.getElementById('explainer-video-player');
+
+    function closeVideoModal() {
+      if (videoModal) videoModal.classList.remove('open');
+      if (videoPlayer && !videoPlayer.paused) videoPlayer.pause();
+    }
+
+    const openVideoBtn = document.getElementById('btn-open-video-modal');
+    if (openVideoBtn && videoModal) {
+      openVideoBtn.addEventListener('click', () => {
+        videoModal.classList.add('open');
+        if (videoPlayer) {
+          videoPlayer.play().catch(() => {});
+        }
+      });
+    }
+
+    const closeVideoBtn = document.getElementById('btn-close-video-modal');
+    if (closeVideoBtn) {
+      closeVideoBtn.addEventListener('click', closeVideoModal);
+    }
+
+    if (videoModal) {
+      videoModal.addEventListener('click', (e) => {
+        if (e.target === videoModal) closeVideoModal();
+      });
+    }
+
     document.getElementById('btn-open-bom-modal').addEventListener('click', () => {
       modal.classList.add('open');
       renderBomTable();
@@ -1660,8 +1689,9 @@
     });
 
     window.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && modal.classList.contains('open')) {
-        modal.classList.remove('open');
+      if (e.key === 'Escape') {
+        if (modal.classList.contains('open')) modal.classList.remove('open');
+        if (videoModal && videoModal.classList.contains('open')) closeVideoModal();
       }
     });
 
